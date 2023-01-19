@@ -3,7 +3,7 @@
 
 ---
 
-<h1 align="center">NLW "Habits"</h1>
+# NLW Setup
 
 > Aplicação produzida/desenvolvida junto com a [Rocketseat](https://rocketseat.com.br/) durante a primeira Next Level Week de 2023!
 
