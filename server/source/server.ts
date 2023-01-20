@@ -7,6 +7,10 @@ const app = Fastify()
 app.register(cors)
 app.register(appRoutes)
 
-app.listen({
-  port: 3333
-}).then(() => console.log(`🔥 Server online at http://127.0.0.1:3333 or http://localhost:3333`))
+app.listen({ port: 3000 }, function (err, address) {
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+  console.info(`server listening on ${address}`)
+})
